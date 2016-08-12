@@ -22,3 +22,4 @@ Route::auth();
 
 Route::get('/home', 'HomeController@index');
 Route::get ('/produtos', 'ProdutosController@index');
+Route::get ('/produtos/{id}', 'ProdutosController@show');
